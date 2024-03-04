@@ -40,12 +40,19 @@ if __name__ == "__main__":
         st.image(
             os.path.join(
                 "img",
-                "logo-long-chatchat-trans-v2.png"
+                # "logo-long-chatchat-trans-v2.png"
+                # "hkust-datacross-bot-logo.png"
+                # "data-cross-border-qa-logo.png"
+                "data-cross-border-qa-robot-logo-white-transparent.png"
             ),
             use_column_width=True
         )
+        # st.caption(
+        #     f"""<p align="right">当前版本：{VERSION}</p>""",
+        #     unsafe_allow_html=True,
+        # )
         st.caption(
-            f"""<p align="right">当前版本：{VERSION}</p>""",
+            f"""<p align="right"></p>""",
             unsafe_allow_html=True,
         )
         options = list(pages)
